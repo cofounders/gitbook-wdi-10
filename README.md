@@ -1,4 +1,6 @@
-My Awesome Book
-=======
+# WDI 9
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+## Daily Stuff
+
+* [Week 01](week_01/wk01_summary.md)
+    - [Day 01](week_01/wk01_day01.md)
