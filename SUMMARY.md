@@ -1,3 +1,6 @@
-# Summary
+# WDI 9
 
-* [First Chapter](chapter1.md)
+## Daily Stuff
+
+* [Week 01](week_01/wk01_summary.md)
+    - [Day 01](week_01/wk01_day01.md)
