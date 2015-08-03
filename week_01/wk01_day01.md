@@ -4,11 +4,12 @@
 What we covered today:
 - Introduction | Orientation | Housekeeping
 - Structure of the Course
+- Introduction to Markdown
 - Introduction to the Command Line
 
 #### Introduction | Orientation | Housekeeping
 
-**[Joel's slides](https://github.com/wofockham/wdi-9/tree/master/00-intro)**
+**[Joel's slides](https://github.com/wofockham/wdi-10/tree/master/00-intro)**
 
 **Joel Turnbull** - Lead Instructor - [jturnbull@ga.co](mailto:jturnbull@ga.co)
 
@@ -115,9 +116,119 @@ We have office hours here in Sydney (except during Week 6 - we have the Spit to 
 - Week 11 - Advanced Back End / Advanced Everything
 - Week 12 - Project 03
 
+#### Introduction to Markdown
+
+_What is Markdown?_
+
+Markdown was initially created by John Gruber (of Daring Fireball) as a simple way for non-programming types to write in an easy-to-read format that could be converted directly into HTML.
+
+Markdown uses a very simple formatting syntax to accomplish the same thing that HTML does. The difference is that it's simpler than HTML and you don't have to worry about opening and closing tags. It also doesn't have all of the menus associated with most text editing programs. To format text, Markdown uses punctuation and characters you're already familiar with.
+
+_How do you write it?_
+
+[This](http://daringfireball.net/projects/markdown/basics) is quite a good place to learn it.
+
+To create a paragraph...
+
+```
+This is a paragraph, it has nothing unusual.
+```
+
+To create headings...
+
+```
+To create headings, prefix the text with hashes (from 1 hash to 6 hashes - more hashes, less important)
+
+# This is an H1
+## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
+###### This is an H6
+```
+
+To use inline styles...
+
+```
+For italics, wrap the content in underscores, for bold, wrap the content in asterisks.
+
+_This is in italics._
+
+**This is bold.**
+
+_You can **combine** those two things quite easily._
+```
+
+To create lists...
+
+```
+# For unordered lists, prefix text with a +, - or *
+
+- This is one list item
+- This is another
+
+* This is one list item
+* This is another
+
++ This is one list item
++ This is another
+
+You can write unordered lists in a bunch of different ways!
+
+# For ordered lists. Just write the number and a period after it
+
+1. This is a list item
+2. This is another list item
+```
+
+To create links...
+
+```
+To create links, select the things that you want to act as a link and put square brackets around them. Immediately following, have round brackets with the URL.
+
+OR! Just put the link on the page.
+
+[This](https://generalassemb.ly/) is a link to General Assembly.
+
+https://generalassemb.ly/
+```
+
+To put an image in the file...
+
+```
+To put an image in the file, have an exclamation mark, followed by square brackets with a caption in it, which is in turned followed by round brackets with a URL and an optional title.
+
+![This is Zac.](https://pbs.twimg.com/media/CLOZKEGUsAA9Wym.jpg "An optional title")
+```
+
+To quote someone (using a blockquote)...
+
+```
+To use a blockquote, prefix some text with a >
+
+> This is a quote
+```
+
+To put code on the page...
+
+```
+To put code on the page, wrap some backticks (`) around the code.
+
+\```
+var x = 5; // This is a comment
+if ( x < 5 ) {
+  console.log( "something." );
+}
+\```
+
+Alternatively, you can have inline code by wrapping text with a single ` .
+
+This is an inline piece of code - ` var x = 5; `.
+```
+
 #### The Command Line
 
-[Download iTerm 2](http://iterm2.com/)
+[It's probably worth downloading iTerm 2.](http://iterm2.com/)
 
 Web programmers have to live on the command line. It gives us fast, reliable, and automatable control over computers. Web servers usually don't have graphical interfaces, so we need to interact with them through command line and programmatic interfaces. Once you become comfortable using the command line, staying on the keyboard will also help you keep an uninterrupted flow of work going without the disruption of shifting to the mouse.
 
@@ -128,6 +239,10 @@ The command-line interface, is often called the CLI, and is a tool, that by typi
 `which date` - Will show the relevant file (will probably return **/bin/date**)
 
 `pwd` - Stands for **Print Working Directory**, will show you where you are in your computer
+
+`mkdir` - Stands for **Make Directory**
+
+`rmdir` - Stands for **Remove Directory**
 
 `clear` - Will clear the screen (ctrl + l will do this as well)
 
@@ -151,9 +266,12 @@ The command-line interface, is often called the CLI, and is a tool, that by typi
 
 `ls /bin` - Will show you all terminal commands
 
+`man` - Stands for **Manual**. To use it, follow the man command with another command (i.e. ` man grep `).
+
 Most commands will have additional **flags**.  A flag is a request for more information.
 
 A good example of this is the following:
+
 ```sh
 > ls
 Applications Documents Desktop etc.
@@ -227,7 +345,7 @@ What happens when we run commands?
 > echo $PATH
 ```
 
-[Here is a basic bash profile.](https://gist.github.com/wofockham/848f06084271030b88ea)
+[Here is a basic bash profile.](https://gist.github.com/avenoir/8a47c257c08632809788)
 
 Some recommended readings when it comes to the Command Line Interface (CLI):
 - [http://en.flossmanuals.net/command-line/index/](http://en.flossmanuals.net/command-line/index/)
@@ -254,9 +372,9 @@ Some recommended readings when it comes to the Command Line Interface (CLI):
     * [http://code.tutsplus.com/articles/perfect-workflow-in-sublime-text-free-course--net-27293](http://code.tutsplus.com/articles/perfect-workflow-in-sublime-text-free-course--net-27293)
 - Start reading up on and practicing [Markdown](http://en.wikipedia.org/wiki/Markdown) (you can experiment with Markdown here: https://gist.github.com/)
 
-###### If you want to learn Markdown...
+###### To learn Markdown...
 
 - [http://markdowntutorial.com/](http://markdowntutorial.com/)
 - [https://help.github.com/articles/markdown-basics/](https://help.github.com/articles/markdown-basics/)
 - [http://daringfireball.net/projects/markdown/basics](http://daringfireball.net/projects/markdown/basics)
-- Marxi Co is a great place to edit Markdown files (syncs with Evernote as well). [Go here to check it out](http://marxi.co/)
+- Marxi Co is quite a good place to edit Markdown files (syncs with Evernote as well). [Go here to check it out](http://marxi.co/)
