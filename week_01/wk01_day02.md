@@ -4,8 +4,6 @@
 What we covered today.
 - Javascript Date Types
 - Javascript Control Structure
-- Shell Scripting
-- $PATH
 
 #### Introduction to Javascript
 
