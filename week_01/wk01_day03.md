@@ -1,5 +1,5 @@
 ## Week 01, Day 03.
-### 29 / 04 / 2015
+### 05 / 08 / 2015
 
 What we covered today:
 - [Warmup Exercise](https://gist.github.com/avenoir/9de7dbf52ff627d33846)
@@ -7,6 +7,7 @@ What we covered today:
 - Demos (of [this homework](https://gist.github.com/wofockham/8f953ac7f33125898071))
 - Git and Github
 - Loops in Javascript
+- Talk with Penny
 - Collections in Javascript
 
 #### Git and Github

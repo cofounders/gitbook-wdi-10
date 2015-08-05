@@ -1,5 +1,5 @@
 ## Week 01, Day 02.
-### 28 / 04 / 2015
+### 04 / 08 / 2015
 
 What we covered today.
 - Javascript Date Types
