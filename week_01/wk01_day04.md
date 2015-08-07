@@ -2,9 +2,14 @@
 ### 30 / 04 / 2015
 
 What we covered today:
-- Sublime Text Tips
+- Warmup Exercise
 - Demos
 - Javascript Objects
+
+#### Warmup Exercise
+
+Leap Year.
+- [Warmup Exercise and Documented Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_01/leap_year)
 
 #### Javascript Objects
 
@@ -113,19 +118,6 @@ fruit === fruitbear; // return true
 ```
 
 No simple way though.  Underscore js has an implementation - "_.isEqual", lots of alternatives [here](http://stackoverflow.com/questions/1068834/object-comparison-in-javascript), but I would stick to the underscore method.  I love [underscore](http://underscorejs.org/).
-
-**Common Object Methods**
-
-```js
-Object.length; // Returns the amount of properties
-Object.freeze(); // Makes it undeleteable and unchangeable
-Object.defineProperty();
-Object.defineProperties();
-Object.observe();
-Object.watch();
-Object.hasOwnProperty();
-Object.isPrototypeOf();
-```
 
 #### Homework
 
