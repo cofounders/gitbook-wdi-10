@@ -16,6 +16,162 @@ What we covered today:
 - [Homework](https://gist.github.com/wofockham/47097f750914f9f23644)
 - Georgina from Lookahead
 
+#### Sublime Text
+
+Sublime Text is a very powerful application, but in order to take full advantage of it we use a thing called Package Control. Firstly we need to install it!
+
+If you are using Sublime Text 3, copy this code...
+
+```
+import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+```
+
+Or if you are using Sublime Text 2, copy this code...
+
+```
+import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
+```
+
+Once you have copied the code, open up the Sublime Text console.  ` View > Show Console `. Once that is opened, paste the code you copied into the text box down the bottom.
+
+Wait a little while, and it should say a success message or say that a missing dependency was installed. When this happens, hit enter, then restart Sublime Text (as in, quit the application).
+
+To check that it works - click Sublime Text > Preferences and if Package Control is visible, you are all sorted.
+
+The first package that we need is called "Emmet", it should mention Ex-zen coding.  To install a package...
+
+Sublime Text > Preferences > Package Control > Install Package and then type Emmet.  Hit enter when you find the right package.  It will give you a successful message and show you a bit of documentation about Emmet. Restart Sublime Text!
+
+Emmet is really helpful when writing HTML, it automates a lot of stuff for us.  Check out [here](http://docs.emmet.io/cheat-sheet/) and [here](http://docs.emmet.io/abbreviations/syntax/).  They will give you lots of information about how to use Emmet.
+
+###### Brief Intro to Emmet
+
+Everything with Emmet comes from writing down a shortcut and then hitting tab at the end of the shortcut.
+
+_Tag Name_
+
+Whether it is a ` p `, a ` div `, or anything else. If you type the tag name, and then hit tab, it will create the element.
+
+_Classes and IDs ( # or . )_
+
+```
+div.className
+Makes <div class="className"></div>
+
+div#tagName
+Makes <div id="tagName"></div>
+
+div.firstClassName.secondClassName
+Makes <div class="firstClassName secondClassName"></div>
+
+div.className#secondClassName
+Makes <div class="className" id="secondClassName"></div>
+```
+
+_Children ( > )_
+
+This is for nesting elements!
+
+```
+div>p
+Makes <div><p></p></div>
+
+header>nav>p
+Makes <header><nav><p></p></nav></header>
+```
+
+_Sibling ( + )_
+
+This is for creating elements next to each other.
+
+```
+header+div.container
+Makes <header></header><div class="container"></div>
+```
+
+_Multiplication ( * )_
+
+This is for making multiple elements at once.
+
+```
+div>ul>li*3
+Makes <div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+```
+
+_Climb Up ( ^ )_
+
+This is to climb out of a nesting.
+
+```
+header>p^div
+Makes <header>
+    <p></p>
+</header>
+<div></div>
+```
+
+_Grouping ( () )_
+
+This is to group chunks of elements so you don't need to worry about climbing.
+
+```
+(header>h1)+(nav>a)
+Makes <header>
+    <h1></h1>
+</header>
+<nav><a href=""></a></nav>
+```
+
+_Attributes ( [] )_
+
+This is to give custom attributes.
+
+```
+img[src="" title="" alt=""]
+Makes <img src="" alt="" title="">
+```
+
+_Text ( {} )_
+
+This is to add text to things.
+
+```
+a{This is a link to something}
+Makes <a href="">This is a link to something</a>
+```
+
+These things can all be used together!
+
+#### Sublime Text Shortcuts
+
+_Display_
+
+- <CMND> + <OPT> + 1   - Single column
+- <CMND> + <OPT> + 2   - Two columns
+- <CMND> + <OPT> + 3   - Three columns
+- <CMND> + <OPT> + 4   - Four columns
+- <CMND> + <OPT> + 5   - A grid of 4
+- <CMND> + <SHIFT> + <OPTION> + 2   - Two rows
+- <CMND> + <SHIFT> + <OPTION> + 3   - Three rows
+
+_Efficiency_
+
+- <CMND> + Click - Multiple Cursors
+- <CMND> + D - Selects the current word or the next instance of the current word
+- <CMND> + <CONTROL> + G - All of the same word
+- <CMND> + [ - Indent to the left
+- <CMND> + ] - Indent to the right
+- <CMND> + <SHIFT> + L - Puts a cursor at the end of the line for entire selection
+- <CMND> + Right - Go to the end of the line
+- <CMND> + Left - Go to the start of the line
+- <OPTION> + Click and Drag - Select in a different way
+
 #### Wireframing
 
 - [Bohemian Coding's Sketch](http://bohemiancoding.com/sketch/) - my favourite
