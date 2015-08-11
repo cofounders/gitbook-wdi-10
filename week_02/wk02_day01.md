@@ -1,5 +1,5 @@
 ## Week 02, Day 01.
-### 04 / 05 / 2015
+### 10 / 08 / 2015
 
 What we covered today:
 - Warmup
@@ -7,6 +7,7 @@ What we covered today:
 - HTML
 - CSS
 - Daisy Smith from WDi5!
+  + [The Slides](https://slack-files.com/files-pri-safe/T0351JZQ0-F08T8RK7B/front-end-talk.pdf?c=1439268122-61ef5a619bb6f176c2277eb27303fc63b158272b)
 
 #### Warmup
 

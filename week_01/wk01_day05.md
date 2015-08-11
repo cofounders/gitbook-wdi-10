@@ -1,5 +1,5 @@
 ## Week 01, Day 05.
-### 01 / 05 / 2015
+### 07 / 08 / 2015
 
 What we covered today:
 - Warmup Exercise

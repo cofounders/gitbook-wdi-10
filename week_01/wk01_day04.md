@@ -1,5 +1,5 @@
 ## Week 01, Day 04.
-### 30 / 04 / 2015
+### 06 / 08 / 2015
 
 What we covered today:
 - Warmup Exercise
