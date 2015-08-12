@@ -1,5 +1,5 @@
 ## Week 02, Day 03.
-### 06 / 05 / 2015
+### 12 / 08 / 2015
 
 What we covered today:
 - [Serge Says Warmup](https://gist.github.com/avenoir/2b7b98bafdcf318a63f7)
