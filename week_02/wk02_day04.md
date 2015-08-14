@@ -6,8 +6,7 @@ What we covered today:
   + [Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_02/anagram)
 - [jQuery](http://jquery.com/)
 - Lab
-    + Cat Shelter
-    + GA Bank
+    + Cat stuff from yesterday
     + [Try Jquery](http://try.jquery.com/)
 
 #### Javascript Libraries
