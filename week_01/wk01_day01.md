@@ -345,7 +345,7 @@ What happens when we run commands?
 > echo $PATH
 ```
 
-[Here is a basic bash profile.](https://gist.github.com/avenoir/8a47c257c08632809788)
+[Here is a basic bash profile.](https://gist.github.com/ga-wolf/8a47c257c08632809788)
 
 Some recommended readings when it comes to the Command Line Interface (CLI):
 

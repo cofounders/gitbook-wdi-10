@@ -2,9 +2,9 @@
 ### 24 / 08 / 2015
 
 What we covered today:
-- [Warmup Exercise](https://gist.github.com/avenoir/60ae6090f70d36db39aa)
-    + [Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_04/difference_of_squares)
-- [RVM and Ruby installation guide](https://gist.github.com/avenoir/98718aa5c63d8323ae46)
+- [Warmup Exercise](https://gist.github.com/ga-wolf/60ae6090f70d36db39aa)
+    + [Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_04/difference_of_squares)
+- [RVM and Ruby installation guide](https://gist.github.com/ga-wolf/98718aa5c63d8323ae46)
 - Ruby
     + Data Types
     + Variables

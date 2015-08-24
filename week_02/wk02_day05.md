@@ -2,8 +2,8 @@
 ### 14 / 08 / 2015
 
 What we covered today:
-- [Beer Bottles Warmup](https://gist.github.com/avenoir/3bb2795dfdb1cd13094d)
-  + [Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_02/beer-song)
+- [Beer Bottles Warmup](https://gist.github.com/ga-wolf/3bb2795dfdb1cd13094d)
+  + [Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_02/beer-song)
 - Cat Demos
 - More jQuery
 - Plugins

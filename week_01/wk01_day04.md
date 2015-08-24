@@ -9,7 +9,7 @@ What we covered today:
 #### Warmup Exercise
 
 Leap Year.
-- [Warmup Exercise and Documented Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_01/leap_year)
+- [Warmup Exercise and Documented Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_01/leap_year)
 
 #### Javascript Objects
 

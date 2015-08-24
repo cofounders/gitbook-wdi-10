@@ -2,8 +2,8 @@
 ### 12 / 08 / 2015
 
 What we covered today:
-- [Serge Says Warmup](https://gist.github.com/avenoir/2b7b98bafdcf318a63f7)
-  + [Documented Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_02/serge_says)
+- [Serge Says Warmup](https://gist.github.com/ga-wolf/2b7b98bafdcf318a63f7)
+  + [Documented Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_02/serge_says)
 - [Javascript Function Review](http://www.teaching-materials.org/jsweb/slides/review.html)
 - The Document Object Model (DOM)
     + Events

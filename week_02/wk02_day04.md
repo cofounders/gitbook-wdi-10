@@ -2,8 +2,8 @@
 ### 13 / 08 / 2015
 
 What we covered today:
-- [Anagram Warmup](https://gist.github.com/avenoir/2b7b98bafdcf318a63f7)
-  + [Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_02/anagram)
+- [Anagram Warmup](https://gist.github.com/ga-wolf/2b7b98bafdcf318a63f7)
+  + [Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_02/anagram)
 - [jQuery](http://jquery.com/)
 - Lab
     + Cat stuff from yesterday

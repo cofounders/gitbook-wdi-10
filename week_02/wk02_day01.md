@@ -11,7 +11,7 @@ What we covered today:
 
 #### Warmup
 
-[Scrabble Documented Solution and Readme's](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_02/scrabble)
+[Scrabble Documented Solution and Readme's](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_02/scrabble)
 
 #### HTML
 

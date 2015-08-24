@@ -2,8 +2,8 @@
 ### 05 / 08 / 2015
 
 What we covered today:
-- [Warmup Exercise](https://gist.github.com/avenoir/9de7dbf52ff627d33846)
-    + [Documented Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_01)
+- [Warmup Exercise](https://gist.github.com/ga-wolf/9de7dbf52ff627d33846)
+    + [Documented Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_01)
 - Demos (of [this homework](https://gist.github.com/wofockham/8f953ac7f33125898071))
 - Git and Github
 - Loops in Javascript

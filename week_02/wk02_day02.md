@@ -2,8 +2,8 @@
 ### 11 / 08 / 2015
 
 What we covered today:
-- [Warmup Exercise](https://gist.github.com/avenoir/7abc8be8bcc377816691)
-    + [Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_02/nucleotide)
+- [Warmup Exercise](https://gist.github.com/ga-wolf/7abc8be8bcc377816691)
+    + [Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_02/nucleotide)
 - Review
 - [Sublime Package Control and Good Packages](../useful/package_control_and_useful_packages.md)
 - Advanced CSS

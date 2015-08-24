@@ -14,7 +14,7 @@ What we covered today:
 #### Warmup Exercise
 
 Raindrops.
-- [Warmup Exercise and Documented Solution](https://github.com/avenoir/WDI10-Homework/tree/master/warmup-exercises/week_01/raindrops)
+- [Warmup Exercise and Documented Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_01/raindrops)
 
 #### This
 
