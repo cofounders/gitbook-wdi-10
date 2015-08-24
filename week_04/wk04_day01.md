@@ -10,8 +10,6 @@ What we covered today:
     + Variables
     + Conditionals
     + Control Structures
-    + Arrays
-    + Hashes (Objects in JS)
     + Methods (Functions in JS)
 
 #### How to get Ruby
