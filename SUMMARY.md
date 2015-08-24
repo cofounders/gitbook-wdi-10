@@ -14,3 +14,6 @@
     - [Day 03](week_02/wk02_day03.md)
     - [Day 04](week_02/wk02_day04.md)
     - [Day 05](week_02/wk02_day05.md)
+* Week 03
+* [Week 04](week_04/wk04_summary.md)
+    - [Day 01](week_04/wk04_day01.md)
