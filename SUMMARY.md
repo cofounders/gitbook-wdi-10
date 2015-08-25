@@ -17,3 +17,4 @@
 * Week 03
 * [Week 04](week_04/wk04_summary.md)
     - [Day 01](week_04/wk04_day01.md)
+    - [Day 02](week_04/wk04_day02.md)
