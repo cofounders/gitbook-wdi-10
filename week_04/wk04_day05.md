@@ -240,7 +240,7 @@ ActiveRecord::Base.logger = Logger.new(STDERR) # Logs out the Active Record gene
 | Delete | DELETE | (Delete) or POST or GET | .destroy or .destroy_all |
 
 
-##### CRUD with Active Record
+#### CRUD with Active Record
 
 Once we have our models defined (i.e. our classes), we can get into the CRUD stuff.  There are always a lot of options of how to do this!
 
