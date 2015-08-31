@@ -7,6 +7,9 @@ What we covered today:
 - Demos
 - Rails
     + Intro
+- Homework
+  + Getting Started with Rails
+  + [Games on Rails](https://gist.github.com/wofockham/f690b61c6e13742647c9)
 
 #### Rails
 
@@ -98,3 +101,9 @@ _The Basic Order of Things (without a database)_
 - Create methods in controllers
 - Create appropriate views
 - Repeat as necessary
+
+## Homework
+
+- http://guides.rubyonrails.org/getting_started.html
+- https://gist.github.com/wofockham/f690b61c6e13742647c9
+- https://en.wikipedia.org/wiki/Magic_8-Ball
