@@ -8,7 +8,7 @@ What we covered today:
 - Rails
     + Intro
 - Homework
-  + Getting Started with Rails
+  + [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)
   + [Games on Rails](https://gist.github.com/wofockham/f690b61c6e13742647c9)
 
 #### Rails
