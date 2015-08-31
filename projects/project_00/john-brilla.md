@@ -16,20 +16,16 @@ But very nice!
 
 Very nice again, but a couple of comments:
 
-- When applying backgrounds to the body, make sure you add background-size: cover; unless you want the images to repeat.
-- There is a far bit of reliance on position absolute and lots of margin stuff here. Definitely better to use floats or display: inline-block to allow for things sitting next to each other
+- When specifying widths, it is best to specify a max-width (this means that it is a little easier to make responsive and will respond to the size of the screen)
 
-Really clean.
+There is some really nice CSS in here, well done.
 
 ## JS
 
-Really well structured again, Aili!
+This is outrageous, your javascript is very impressive. Had you done a bit of coding before this course? It's very nice.
 
-A couple of comments:
-
-- Instead of having random colours in your Javascript, it is best to keep things that are style-related in the CSS - and just add and remove classes with JS.
-- In the same way, best to do things like hovers with CSS. You can still have the function that does the shake in a javacript function, but for the changes in background colours. Use classes or pure CSS.
-- Instead of refreshing the page, it is best to have clearBoard doing all of that work. (i.e. changing all the counters back to 0 etc.)
+- Remember you never need to compare to true when using if statements, as if it is truthy, it will cause that anyway. (line 106 for example)
+- Instead of changing .attr("class"), the easiest way is to use addClass and removeClass. That way if you have some other classes going on, it won't stuff you up.  210 - 218 for example
 
 
-Really great code though, Aili.  Very impressed!  Make sure you come and grab me if you want to have a chat about anything - always happy to help!
+Really great code though, John.  Very impressed!  Make sure you come and grab me if you want to have a chat about anything - always happy to help!
