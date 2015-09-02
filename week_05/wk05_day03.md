@@ -175,6 +175,8 @@ Thousands of things you can do, go through [here!](http://guides.rubyonrails.org
 
 #### A Basic Rails Guide
 
+Treat this as a really rough guide, definitely don't always follow it. You'll figure out your approach soon.
+
 - ` rails new app-name `
 - ` cd app-name `
 - Add ` gem 'pry-rails' ` into your Gemfile (in the development group)
