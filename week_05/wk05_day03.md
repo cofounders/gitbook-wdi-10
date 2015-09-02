@@ -171,3 +171,22 @@ TAG HELPERS!
 ```
 
 Thousands of things you can do, go through [here!](http://guides.rubyonrails.org/form_helpers.html)
+
+
+#### A Basic Rails Guide
+
+- ` rails new app-name `
+- ` cd app-name `
+- Add ` gem 'pry-rails' ` into your Gemfile (in the development group)
+- run ` bundle `
+- run ` rake db:create `
+- Generate your first migrations and models - either ` rails g model Model name:string type:string ` etc. or:
+  + ` rails g migration create_tables `
+  + Add the fields you need to that file - make sure you include t.timestamps
+  + ` rails g model ModelName `
+- Generate your controllers and your views - either ` rails g controller Users index new create delete show ` etc. or:
+  + ` rails g controller Users `
+  + Add your methods into the controller
+  + Create views that correspond with the method names in the view folder for that particular controller
+- Work out your routes file
+- Repeat this stuff as necessary
