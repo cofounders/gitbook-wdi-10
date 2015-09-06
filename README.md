@@ -27,3 +27,5 @@
     - [Day 03](week_05/wk05_day03.md)
     - [Day 04](week_05/wk05_day04.md)
     - [Day 05](week_05/wk05_day05.md)
+* [Modules]
+    - [Heroku](modules/heroku.md)
