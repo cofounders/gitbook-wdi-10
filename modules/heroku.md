@@ -40,7 +40,7 @@ See [here](https://www.heroku.com/home) for more.
 - Run `heroku ps` to make sure that that has all worked
 - Run `heroku open` to do exactly what you imagine
 
-For this in far more details, [see here.](https://devcenter.heroku.com/articles/getting-started-with-rails4)
+For this in far more detail, [see here.](https://devcenter.heroku.com/articles/getting-started-with-rails4)
 
 ## _Common Heroku Commands_
 
