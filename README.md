@@ -29,4 +29,4 @@
     - [Day 05](week_05/wk05_day05.md)
 * Week 06
 * [Week 07](week_07/wk07_summary.md)
-    - [Day 01](week_01/wk07_day01.md)
+    - [Day 01](week_07/wk07_day01.md)
