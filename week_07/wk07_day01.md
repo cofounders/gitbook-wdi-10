@@ -1,5 +1,5 @@
 ## Week 07, Day 01
-### 01 / 09 / 2015
+### 14 / 09 / 2015
 
 What we covered today:
 - [Hamming Distance Warmup](https://gist.github.com/ga-wolf/124081337839f06753b8)
