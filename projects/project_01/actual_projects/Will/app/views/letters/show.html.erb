@@ -1,0 +1,28 @@
+<h2>A Letter</h2>
+
+<div class="letter_show">
+
+	<div class="letter_image">
+		<p><%= cl_image_tag "#{@letter.image_url}",  :quality => "jpegmini", :width => 480, :height => 320, :crop => 'fill', class: "image_show" %></p>
+	</div>
+
+	<div class="letter_content">
+		<div class="content_show">
+			<%= @letter.content %>
+		</div>
+	</div>
+</div>
+
+<div class="mood_show">
+	Mood: 
+		<% @letter.moods.each do |mood| %>
+			<%= mood.name %>
+		<% end %>
+</div>
+
+<% if @current_user.present? && @current_user.admin %>
+	<div class="admin">
+		<%= link_to "Edit", edit_letter_path(@letter.id) %>
+		<%= link_to "Delete", @letter, :method => 'delete', :data => {:confirm => 'Are you sure you want to delete letter?'} %>
+	</div>
+<% end %>

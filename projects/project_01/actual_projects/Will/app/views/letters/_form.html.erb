@@ -1,0 +1,53 @@
+<div class="form">	
+	<% if @letter.errors.any? %>
+		<ol>
+			<% @letter.errors.full_messages.each do |msg| %>
+				<li><%= msg %></li>
+			<% end %>
+		</ol>
+	<% end %>
+
+	<%= form_for @letter, :html => {:multipart => true} do |f| %>
+		<div class="form-group">
+			<%= f.label "Recipient's Name: " %>
+			<%= f.text_field :recipient, :class => 'form-control' %>
+		</div>
+
+		<div class="form-group">
+			<%= f.label "Recipient's Email: " %>
+			<%= f.email_field :email, :class => 'form-control' %>
+		</div>
+
+		<div class="form-group">
+			<%= f.label "Content: " %>
+			<%= f.text_area :content, :class => 'form-control', :rows => '4' %>
+		</div>
+
+		<div class="form-group">
+			<%= f.label "Deliver On: " %>
+			<%= f.date_field :deliver_date, :class => 'form-control' %>
+		</div>
+		
+		<div class="form-group-checkbox">
+			<%= f.label "Mood: " %>
+ 			<div class="checkbox">
+				<%= hidden_field_tag "letter[mood_ids][]", nil %>
+				<% Mood.all.each do |mood| %>
+				<div class="radio">
+					<%= check_box_tag "letter[mood_ids][]", mood.id, @letter.mood_ids.include?(mood.id) %>
+					<%= mood.name %>
+				</div>
+				<% end %>
+ 			</div>
+		</div>
+
+		<div class="form-group">
+			<%= f.label "Upload Image: " %>
+			<%= f.cl_image_upload :image_url, :class => 'form-control' %>
+		</div>
+		
+		<div class="submit-field">
+			<%= f.submit :class => "btn btn-primary" %>
+		</div>
+	<% end %>
+</div>

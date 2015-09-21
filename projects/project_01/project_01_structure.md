@@ -36,9 +36,11 @@ Any helpers here?
 
 _Models_
 
+Associations?
+
 Validations?
 
-Associations?
+Custom methods?
 
 _Views_
 

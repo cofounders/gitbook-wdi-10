@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timecapsule</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+ 
+</head>
+<body>
+
+  <div class="container">
+
+<!--     <div class="navbar">
+      <nav class="navbar nav">
+          <%= link_to "Home", root_path %>
+
+          <% if @current_user.present? %>
+          	<%= link_to "Write a Letter", new_letter_path %>
+            <%= link_to "Profile", @current_user %>
+        	  <%= link_to "Edit Profile", edit_user_path %>
+        	  <%= link_to "Logout", login_path, :method => 'delete', :data => {:confirm => 'Are you sure you want to logout?'} %>
+          <% else %>
+          	<%= link_to "Create Account", new_user_path %>
+          	<%= link_to "Login", login_path %>
+          <% end %>
+          <%= link_to "All Letters", letters_path %>
+      </nav>
+    </div> -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Time Capsule</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Read Letters<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "All", letters_path %></li>
+            <li><%= link_to "Love", letter_type_path('love') %></li>
+            <li><%= link_to "Morbid", letter_type_path('morbid') %></li>
+            <li><%= link_to "Existential", letter_type_path('existential') %></li>
+            <li><%= link_to "Emo", letter_type_path('emo') %></li>
+            <li><%= link_to "Other", letter_type_path('other') %></li>
+          </ul>
+        </li>
+        <% unless @current_user.present? %>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/users/new">Create Account</a></li>
+        <% else %>
+        <li><a href="/letters/new">Write a Letter</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= @current_user.name %> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "My Gallery", @current_user %></li>
+            <li><%= link_to "Edit Profile", edit_user_path %></li>
+            <li role="separator" class="divider"></li>
+            <li><%= link_to "Logout", login_path, :method => 'delete', :data => {:confirm => 'Are you sure you want to logout?'} %></li>
+          </ul>
+        </li>
+        <% end %>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <%= yield %>
+
+  </div>
+</body>
+</html>

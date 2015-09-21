@@ -1,0 +1,18 @@
+development:
+  cloud_name: twillzy
+  api_key: '985571955642264'
+  api_secret: V2ADQYpLgfH6aoQGVAdqU3p8Uw8
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: twillzy
+  api_key: '985571955642264'
+  api_secret: V2ADQYpLgfH6aoQGVAdqU3p8Uw8
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: twillzy
+  api_key: '985571955642264'
+  api_secret: V2ADQYpLgfH6aoQGVAdqU3p8Uw8
+  enhance_image_tag: true
+  static_image_support: false

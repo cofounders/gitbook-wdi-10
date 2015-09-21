@@ -1,0 +1,27 @@
+== README
+
+* Ruby version: 2.2.3
+
+* Database creation: 3 models (user, letter and mood)
+
+* What is this? An app that lets you send a letter (actually an email) to yourself/anyone in the future.
+
+* How to run the test suite: No test written as of yet
+
+* Services (job queues, cache servers, search engines, etc.)
+  * Sidekiq + Redis-to-go for job queues
+  * Sendgrid for external SMTP service 
+
+* Deployment instructions
+  * git push heroku master
+  * setting up unicorn, sidekiq, redis, sendgrid is a big bitch. [Visit Sidekiq Github](https://github.com/mperham/sidekiq)
+   
+uri = URI.parse(ENV["REDISTOGO_URL"])
+REDIS = Redis.new(:url => uri)
+
+* Procfile: 
+
+web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
+worker: bundle exec sidekiq -q default -q mailers
+
+Check this out: (https://timecapsuleapp.herokuapp.com/)

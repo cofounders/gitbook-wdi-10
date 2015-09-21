@@ -1,0 +1,7 @@
+<h2>My Gallery</h2>
+
+<div class="row-container">
+	<% @user.letters.reverse_each do |letter| %>
+		<%= link_to((cl_image_tag "#{letter.image_url}",  :quality => "jpegmini", :width => 376, :height => 250, :crop => 'fill'), letter, :class => 'thumbnail-flex') %>
+	<% end %>
+</div>

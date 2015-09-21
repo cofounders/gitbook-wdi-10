@@ -1,0 +1,7 @@
+<p>Dear <%= @letter.recipient %>,</p>
+
+<p><%= @letter.content %></p>
+
+<p>Sincerely,</p>
+
+<p><%= User.find(@letter.user_id).name %></p>

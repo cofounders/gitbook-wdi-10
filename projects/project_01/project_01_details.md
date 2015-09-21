@@ -1,6 +1,6 @@
 # Project 01
 
-## Miles
+## Miles (Mike)
 
 - https://github.com/milesthedisch/lolTeamz
 - http://lolteamz.herokuapp.com
@@ -9,7 +9,7 @@
 
 - Open up a desktop app, user association with character, live updating, lock down characters, handling API going down - good error messages
 
-## Gemma
+## Gemma (Mike)
 
 - https://github.com/GemmaStiles/focus
 - https://protected-anchorage-8450.herokuapp.com/
@@ -18,7 +18,7 @@
 
 - continue working on styling
 
-## Zac
+## Zac (Mike)
 
 - https://github.com/fraserzac/tweetr
 - https://guarded-anchorage-2771.herokuapp.com/
@@ -27,7 +27,16 @@
 
 - upload images, can't follow yourself, users show page etc.
 
-## Daniel
+## Vaibhav (Mike)
+
+- http://v-bill.herokuapp.com/
+- https://github.com/veebuv/project_1
+- http://vmanchat.herokuapp.com/
+- https://github.com/veebuv/chatApp
+
+#### Next
+
+## Daniel (Mike)
 
 - https://github.com/djstozza/danielslist
 - http://danielslist.herokuapp.com
@@ -36,7 +45,7 @@
 
 - Dynamic forms, calendars for inspection times etc., scrape posts from Craigslist, make the text more human
 
-## Chris
+## Chris (Mike)
 
 - https://github.com/JadeInHand/Project-one
 - https://finnish-governance.herokuapp.com/
@@ -45,16 +54,16 @@
 
 - Scraping for wikipedia to get party data
 
-## Vivian
+## Vivian (Mike)
 
-- N/A
-- N/A
+- https://github.com/vivoooooo/WDI10-Homework/tree/master/vivian-li/week_06/newsview
+- https://powerful-scrubland-5926.herokuapp.com/
 
 #### Next
 
 - Linking articles to people, search parameters (like dates), login - each person has their own database
 
-## Aili
+## Aili (Mike)
 
 - https://github.com/Aili1004/Project-01
 - https://az-ratings.herokuapp.com
@@ -63,10 +72,10 @@
 
 - Users can't see restaurants, fix google maps
 
-## Kylie
+## Kylie (Mike)
 
 - https://github.com/kylieo/JetpackPug
-- N/A
+- https://arcane-bayou-2389.herokuapp.com/
 
 #### Next
 
@@ -76,24 +85,17 @@
 
 - https://github.com/KasturiDona/GreatReads
 - http://greatreads.herokuapp.com/
+- https://gist.github.com/anonymous/c015b6f67687454c6587
 
 #### Next
 
 - Users to follow genres and authors
 
-## Will
-
-- N/A - needed private
-- http://timecapsuleapp.herokuapp.com/
-
-#### Next
-
-- Solve passwords on Github, scared that it will break
-
 ## Phil
 
 - https://github.com/Ptakch/tfc_app
 - http://tfc-stat-app.herokuapp.com/
+- https://gist.github.com/ga-wolf/0e957f52581fdaeb1066
 
 #### Next
 
@@ -101,30 +103,24 @@
 
 ## Tamara
 
--
--
-
-#### Next
-
-## Vaibhav
-
-- http://v-bill.herokuapp.com/
-- https://github.com/veebuv/project_1
-- http://vmanchat.herokuapp.com/
-- https://github.com/veebuv/chatApp
+- https://github.com/littlewoodt/instygram
+- https://enigmatic-ridge-2902.herokuapp.com/login
 
 #### Next
 
 ## Tony
 
 - https://github.com/tonyetro/insolent-lima-bean
--
+- https://evening-lowlands-4744.herokuapp.com/
 
 #### Next
 
 - Making the maps work, modal for log in and sign up, "polish the turd", fix the Heroku
 
 ## Guy
+
+- https://github.com/chamberlainguy/jobs789
+- https://blooming-plains-2243.herokuapp.com/
 
 #### Next
 
@@ -145,3 +141,13 @@
 #### Next
 
 - Fix checklists, bug of kicking other people out
+
+## Will
+
+- https://ga-students.slack.com/files/twillzy/F0ATMUUMQ/timecapsule-master.zip
+- http://timecapsuleapp.herokuapp.com/
+
+#### Next
+
+- Solve passwords on Github, scared that it will break
+

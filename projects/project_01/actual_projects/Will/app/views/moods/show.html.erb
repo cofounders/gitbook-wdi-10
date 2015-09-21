@@ -1,0 +1,4 @@
+<h2><%= @mood.name %></h2>
+
+<%= link_to "Edit Mood", edit_mood_path %>
+<%= link_to "Delete Mood", @mood, :method => 'delete', :data => {:confirm => 'Are you sure you want to delete mood?'} %>
