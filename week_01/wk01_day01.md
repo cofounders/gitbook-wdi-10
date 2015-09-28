@@ -363,7 +363,7 @@ Some recommended readings when it comes to the Command Line Interface (CLI):
 
 #### Homework
 
-- Track down the Terminal City murderer
+- Track down the [Terminal City murderer](https://github.com/veltman/clmystery)
 - Make a start reading up on the command line documentation of your choice (select from the links in recommended readings just above!)
 - Finish the WDI Fundamentals pre-work and bring any questions for tomorrow
 - Install Google Chrome if you haven't already
