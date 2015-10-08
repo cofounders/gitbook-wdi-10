@@ -4,6 +4,7 @@
 
 - https://github.com/milesthedisch/lolTeamz
 - http://lolteamz.herokuapp.com
+- https://gist.github.com/Scoutski/7de2556220666b0cdf2a
 
 #### Next
 
@@ -13,6 +14,7 @@
 
 - https://github.com/GemmaStiles/focus
 - https://protected-anchorage-8450.herokuapp.com/
+- https://gist.github.com/Scoutski/3b15afc3e152f7b97fcd
 
 #### Next
 
@@ -22,6 +24,7 @@
 
 - https://github.com/fraserzac/tweetr
 - https://guarded-anchorage-2771.herokuapp.com/
+- https://gist.github.com/Scoutski/4d3abb39af74beeefb72
 
 #### Next
 
@@ -33,6 +36,7 @@
 - https://github.com/veebuv/project_1
 - http://vmanchat.herokuapp.com/
 - https://github.com/veebuv/chatApp
+- https://gist.github.com/Scoutski/2702072cf65541a0c5c0
 
 #### Next
 
@@ -40,6 +44,7 @@
 
 - https://github.com/djstozza/danielslist
 - http://danielslist.herokuapp.com
+- https://gist.github.com/Scoutski/26bb155868804d6b028c
 
 #### Next
 
@@ -49,6 +54,7 @@
 
 - https://github.com/JadeInHand/Project-one
 - https://finnish-governance.herokuapp.com/
+- https://gist.github.com/Scoutski/749803d50c405fdfe07e
 
 #### Next
 
@@ -58,6 +64,7 @@
 
 - https://github.com/vivoooooo/WDI10-Homework/tree/master/vivian-li/week_06/newsview
 - https://powerful-scrubland-5926.herokuapp.com/
+- https://gist.github.com/Scoutski/7e9e46b9ffd1b7ac3e6a
 
 #### Next
 
@@ -67,6 +74,7 @@
 
 - https://github.com/Aili1004/Project-01
 - https://az-ratings.herokuapp.com
+- https://gist.github.com/Scoutski/86fd3ae37f42d7366e4c
 
 #### Next
 
@@ -76,6 +84,7 @@
 
 - https://github.com/kylieo/JetpackPug
 - https://arcane-bayou-2389.herokuapp.com/
+- https://gist.github.com/Scoutski/d3b0092f3ccee79e6bc1
 
 #### Next
 
@@ -113,6 +122,7 @@
 
 - https://github.com/tonyetro/insolent-lima-bean
 - https://evening-lowlands-4744.herokuapp.com/
+- https://gist.github.com/ga-wolf/1bfe92ff3f35061cf4e0
 
 #### Next
 
@@ -122,6 +132,7 @@
 
 - https://github.com/chamberlainguy/jobs789
 - https://blooming-plains-2243.herokuapp.com/
+- https://gist.github.com/ga-wolf/460a0010eb1e08eaa5ca
 
 #### Next
 
@@ -129,6 +140,7 @@
 
 - https://github.com/jbcool17/karmapolice
 - http://karmapolice.herokuapp.com/
+- https://gist.github.com/ga-wolf/8069c7c3630c1f2f9c15
 
 #### Next
 
@@ -138,6 +150,7 @@
 
 - https://github.com/Alxswan/sharehome
 - http://sharehome.herokuapp.com/
+- https://gist.github.com/ga-wolf/1909dee6f37796d7e975
 
 #### Next
 
@@ -147,11 +160,8 @@
 
 - https://ga-students.slack.com/files/twillzy/F0ATMUUMQ/timecapsule-master.zip
 - http://timecapsuleapp.herokuapp.com/
+- https://gist.github.com/ga-wolf/667650157cbc0009f051
 
 #### Next
 
 - Solve passwords on Github, scared that it will break
-
-
-
-Tony, Guy, John, Alex, Will
