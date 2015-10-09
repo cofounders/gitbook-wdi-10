@@ -1,5 +1,5 @@
-## Week 10, Day 04
-### 02 / 07 / 2015
+## Week 10, Day 05
+### 09 / 10 / 2015
 
 What we covered today:
 - [Warmup](https://gist.github.com/ga-wolf/6d27f68d17f55be6bba9) and [Test Suite](https://gist.github.com/ga-wolf/c7e388f34e84e5af36d9)
