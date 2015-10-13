@@ -2,8 +2,8 @@
 ### 08 / 10 / 2015
 
 What we covered today:
-- [Warmup](https://gist.github.com/ga-wolf/27360727e8866594e3a4) and [Test Suite](https://gist.github.com/ga-wolf/7c38ba73f2a7786e1637)
-  + [Solution](https://github.com/ga-wolf/WDI10-Homework/tree/master/warmup-exercises/week_10/wordy_calculator)
+- [Warmup](https://gist.github.com/ga-wolf/c3c81080fa8d583d99fb) and [Test Suite](https://gist.github.com/ga-wolf/6099832d43d1676af95b)
+  + [Solution](https://gist.github.com/Scoutski/fb97c8a9876142c07938)
 - Rspec
 
 #### Rspec
