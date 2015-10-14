@@ -4,6 +4,7 @@
 What we covered today:
 - [Warmup](https://gist.github.com/ga-wolf/c5d569536ee694fcfef5) and [Test Suite](https://gist.github.com/ga-wolf/f938a31a3ed666c05a28)
     + [Documented Solution](https://gist.github.com/Scoutski/84e25ee8c50a8d4817ec)
+- Adobe Office Visit
 - YouTeach
   + Kylie
   + Will
