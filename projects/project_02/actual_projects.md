@@ -15,11 +15,14 @@ https://github.com/twillzy/makecodenotwar
 ## Zac and Tamara
 https://aqueous-spire-1391.herokuapp.com/
 https://github.com/fraserzac/project2
+https://gist.github.com/ga-wolf/800fcae684e271b14093
 
 ## Daniel, Miles and Vaibhav
 https://vdmlist.herokuapp.com/
 https://github.com/djstozza/Project-2
+https://gist.github.com/ga-wolf/ebb6bc1c7ac49ca04e99
 
 ## Alex, Phil and Robinson
 http://rap-soundflakes.herokuapp.com/
 https://github.com/triple-nerd-fury/soundflakes
+https://gist.github.com/ga-wolf/10d13fe25b864dc46066

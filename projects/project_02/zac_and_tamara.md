@@ -68,4 +68,4 @@ Clean Schema.
 ​
 
 
-You too have done a brilliant job on this stuff Zac and Tamara.  It looks great and works really well. You should be very proud of yourselves.  I can't wait to see what you two build for your final projects!
+You too have done a brilliant job on this stuff Zac and Tamara.  It looks great and works really well. You should be very proud of yourselves.  I can't wait to see what you two build for your final projects!  Let me know if you have any questions about the feedback (or about anything!).
